@@ -13,7 +13,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     getResult()
   }))
 
-  function generateComputerChoice() {
+function generateComputerChoice() {
       const randomNumber = Math.floor(Math.random() * 5)
 
       if (randomNumber === 1){
@@ -35,7 +35,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
       oppChoiceDisplay.innerHTML = oppChoice
   }
 
-  function getResult() {
+function getResult() {
       if(oppChoice === userChoice){
           result = 'Its a draw!'
       }
@@ -52,7 +52,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
         result = 'You lose!!!'
       }
       if (oppChoice === 'scissors' && userChoice === 'rock'){
-        result = 'You win!!!'
+       result = 'You win!!!'
       }
       if (oppChoice === 'scissors' && userChoice === 'paper'){
         result = 'You lose!!!'
@@ -99,6 +99,6 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
       if (oppChoice === 'rock' && userChoice === 'spock'){
         result = 'You win!!!'
       }
+      
       resultDisplay.innerHTML = result;
-      console.log(result)
-  };
+    };
