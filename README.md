@@ -32,11 +32,14 @@ I created my initial design on Balsamiq Wireframes to get an initial idea for th
 * Balsamiq
   * A wireframe was created to get the original deisgn layout.
  
- * Font Awesome
+ * [Font Awesome](https://fontawesome.com/)
    * The games icons were all taken from this site.
 
-* Github
+* [Github](https://github.com/)
   * This was used as the host site for the code for the site.
+
+* [Color Space](https://mycolor.space/)
+  * Used to create the color gradient for the background.
 
 ## Testing
 
