@@ -60,7 +60,7 @@ function getResult() {
       if (oppChoice === 'rock' && userChoice === 'lizard'){
         result = 'You lose!!!'
       }
-      if (oppChoice === 'lizard' && userChoice === 'lizard'){
+      if (oppChoice === 'lizard' && userChoice === 'rock'){
         result = 'You win!!!'
       }
       if (oppChoice === 'lizard' && userChoice === 'spock'){
