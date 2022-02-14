@@ -2,6 +2,10 @@
 
 ## Introduction
 
+Below are links to the Github repository and the live site
+
+[Live Site] (https://adrian-1990.github.io/CI-project-2-JavaScript/)
+
 
 ## UX - User Experience Design
 
