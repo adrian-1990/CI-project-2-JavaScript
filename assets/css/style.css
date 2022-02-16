@@ -8,12 +8,20 @@ body{
 
 #home-screen h2{
     font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
 }
 
 /* font style for body of the game */
 
 .rules-area p, .game-rules li, .result-area{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
+
+/* game rules list */
+
+.game-rules{
+    list-style: none;
 }
 
 /* game buttons */
@@ -49,4 +57,7 @@ body{
 
 /* results area */
 
+.result-area{
+    padding-top: 2%;
+}
 
