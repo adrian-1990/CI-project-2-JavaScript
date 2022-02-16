@@ -15,3 +15,31 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.game-buttons button{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    background-position: center;
+}
+
+#rock{
+    background-image: url(../images/rock\ img.png);
+}
+
+#paper{
+    background-image: url(../images/paper\ img.png);
+}
+
+#scissors{
+    background-image: url(../images/scissors\ img.png);
+}
+
+#lizard{
+    background-image: url(../images/lizard\ img.png);
+}
+
+#spock{
+    background-image: url(../images/spock\ img.png);
+}
+
+
