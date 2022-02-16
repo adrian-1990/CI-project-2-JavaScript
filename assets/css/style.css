@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-image: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff);
+    background-attachment: fixed;
 }
 
 #home-screen h2{
@@ -15,11 +16,15 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+/* game buttons */
+
 .game-buttons button{
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     border-radius: 20%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #rock{
@@ -41,5 +46,7 @@ body{
 #spock{
     background-image: url(../images/spock\ img.png);
 }
+
+/* results area */
 
 
