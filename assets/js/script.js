@@ -13,6 +13,11 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     getResult()
   }))
 
+/**
+ * Creates an array for computers choices
+ * Generates a random choice for oppChoice.
+ */
+
 function generateComputerChoice() {
       const randomNumber = Math.floor(Math.random() * 5)
 
@@ -35,70 +40,74 @@ function generateComputerChoice() {
       oppChoiceDisplay.innerHTML = oppChoice
   }
 
+  /**
+   * Checks a string of userChoice and oppChoice
+   * A winner is declared for the round and you are notified if you are the winner, lost the round or it's a draw.
+   */
+
 function getResult() {
-      if(oppChoice === userChoice){
-          result = 'Its a draw!'
-      }
-      if (oppChoice === 'rock' && userChoice === 'paper'){
-          result = 'You win!!!'
-      }
-      if (oppChoice === 'rock' && userChoice === 'scissors'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'paper' && userChoice === 'scissors'){
+    if(oppChoice === userChoice){
+        result = 'Its a draw!'
+    }
+    if (oppChoice === 'rock' && userChoice === 'paper'){
         result = 'You win!!!'
-      }
-      if (oppChoice === 'paper' && userChoice === 'rock'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'scissors' && userChoice === 'rock'){
-       result = 'You win!!!'
-      }
-      if (oppChoice === 'scissors' && userChoice === 'paper'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'rock' && userChoice === 'lizard'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'lizard' && userChoice === 'rock'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'lizard' && userChoice === 'spock'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'spock' && userChoice === 'lizard'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'spock' && userChoice === 'scissors'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'scissors' && userChoice === 'spock'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'scissors' && userChoice === 'lizard'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'lizard' && userChoice === 'scissors'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'lizard' && userChoice === 'paper'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'paper' && userChoice === 'lizard'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'paper' && userChoice === 'spock'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'spock' && userChoice === 'paper'){
-        result = 'You win!!!'
-      }
-      if (oppChoice === 'spock' && userChoice === 'rock'){
-        result = 'You lose!!!'
-      }
-      if (oppChoice === 'rock' && userChoice === 'spock'){
-        result = 'You win!!!'
-      }
-      
-      resultDisplay.innerHTML = result;
-    };
+    }
+    if (oppChoice === 'rock' && userChoice === 'scissors'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'paper' && userChoice === 'scissors'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'paper' && userChoice === 'rock'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'scissors' && userChoice === 'rock'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'scissors' && userChoice === 'paper'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'rock' && userChoice === 'lizard'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'lizard' && userChoice === 'rock'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'lizard' && userChoice === 'spock'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'spock' && userChoice === 'lizard'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'spock' && userChoice === 'scissors'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'scissors' && userChoice === 'spock'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'scissors' && userChoice === 'lizard'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'lizard' && userChoice === 'scissors'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'lizard' && userChoice === 'paper'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'paper' && userChoice === 'lizard'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'paper' && userChoice === 'spock'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'spock' && userChoice === 'paper'){
+      result = 'You win!!!'
+    }
+    if (oppChoice === 'spock' && userChoice === 'rock'){
+      result = 'You lose!!!'
+    }
+    if (oppChoice === 'rock' && userChoice === 'spock'){
+      result = 'You win!!!'
+    }
+    resultDisplay.innerHTML = result;
+  };

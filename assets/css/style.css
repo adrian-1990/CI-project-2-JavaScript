@@ -4,15 +4,15 @@ body{
     background-attachment: fixed;
 }
 
+/* font style for  game rules header*/
+
 #home-screen h2{
     font-family: 'Bebas Neue', cursive;
 }
 
-.rules-area p, .game-rules li{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
+/* font style for body of the game */
 
-.result-area{
+.rules-area p, .game-rules li, .result-area{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
