@@ -7,10 +7,11 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 
-.rules-area p{
+.rules-area p, .game-rules li{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.game-rules li{
+.result-area{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
