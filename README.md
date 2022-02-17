@@ -67,7 +67,7 @@ The site was deployed through Github. The steps to deploy the site are:
 3. Under **Source**, change the branch to master, the click **save**.
 4. Once the master branch has been selected and saved a link for your live page will be created.
 
-
+![github pages link](https://user-images.githubusercontent.com/79532281/154527663-a9c9afc0-af33-45fb-adab-e0b72cf88bcf.png)
 
 
 ## Credits
