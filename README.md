@@ -68,11 +68,15 @@ When playing the early version of the game the users choice would not appear, yo
 
 ![early in game bug](https://user-images.githubusercontent.com/79532281/154544324-8c60658f-3613-4669-9be9-455c89d6ae99.png)
 
-I found that the buttons had a white border around the image that you could click and create an empty string choice, this was causing the players choice not to be selected. To fix this I removed the images from inside the button in my HTML and added the images as a background in CSS.
+I found that the buttons had a white border around the image that you could click and create an empty string choice, this was causing the players choice not to be selected. To fix this I removed the images from inside the button in my HTML and added the images as a background-image in CSS.
+
+![new html](https://user-images.githubusercontent.com/79532281/154545774-a65f22b5-105a-4bd3-ae96-db170e23c914.png)
+
+![new css](https://user-images.githubusercontent.com/79532281/154545787-95724dce-5a1c-46b4-9da7-bc4785579e96.png)
 
 This removed the border around the button image and fixed the bug. Players choices are now selected with no issue.
 
-
+![new buttons](https://user-images.githubusercontent.com/79532281/154545903-f9b0c6b8-70f0-4970-a4a7-02775bbdbb1d.png)
 
 
 ## Deployment
@@ -93,5 +97,5 @@ The site was deployed through Github. The steps to deploy the site are:
 * The responsive layout at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
 * The hero image on the site was taken from [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html)
 * The fonts came from [Google Fonts](https://fonts.google.com/)
-* The if statement in the JavaScript code was created with assistance form [w3schools](https://www.w3schools.com/js/js_if_else.asp)
+* The if statement in the JavaScript code was created with assistance from [w3schools](https://www.w3schools.com/js/js_if_else.asp)
 
