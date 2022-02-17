@@ -23,7 +23,7 @@ The site should be easy to use for new and return users. The site should have al
 
 ### Structure
 
-The game title will tell users what game they are playing. There is a section for players to select what they want to play, a section to annoucne the winner and a section that contains the rules so user can know why they won / lost. There is a scoreboard to keep track of who is winning betweent the user and computer.
+The game title will tell users what game they are playing. There is a section for players to select what they want to play, a section to announce the winner and a section that contains the rules so user can know why they won / lost. There is a scoreboard to keep track of who is winning between the user and computer.
 
 ### Skeleton
 
@@ -71,6 +71,9 @@ The site was deployed through Github. The steps to deploy the site are:
 
 
 ## Credits
+
 ### Content
+* The background color used created suing [ColorSpace](https://mycolor.space/)
+* The responsive layout was at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
 
 
