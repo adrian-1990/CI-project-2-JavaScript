@@ -81,5 +81,6 @@ The site was deployed through Github. The steps to deploy the site are:
 ### Content
 * The background color used created suing [ColorSpace](https://mycolor.space/)
 * The responsive layout at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
+* The hero image on the site was taken from [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html)
 
 
