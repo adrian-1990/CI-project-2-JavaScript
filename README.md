@@ -64,6 +64,16 @@ I created my initial design on Balsamiq Wireframes to get an initial idea for th
 
 #### Bugs
 
+When playing the early version of the game the users choice would not appear, you would only see the computers choice and result. After investigating through Google dev tools I discovered this was because you could not select the button correctly.
+
+![early in game bug](https://user-images.githubusercontent.com/79532281/154544324-8c60658f-3613-4669-9be9-455c89d6ae99.png)
+
+I found that the buttons had a white border around the image that you could click and create an empty string choice, this was causing the players choice not to be selected. To fix this I removed the images from inside the button in my HTML and added the images as a background in CSS.
+
+This removed the border around the button image and fixed the bug. Players choices are now selected with no issue.
+
+
+
 
 ## Deployment
 
