@@ -159,3 +159,8 @@ function getResult() {
   function increaseOppScore(score){
     score.innerHTML = ++computersScore;
   }
+
+    /**
+   * When the player or computer scores 5 points
+   * a winner is declared
+   */
