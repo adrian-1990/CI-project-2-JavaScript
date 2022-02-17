@@ -46,8 +46,14 @@ I created my initial design on Balsamiq Wireframes to get an initial idea for th
 * [Github](https://github.com/)
   * This was used as the host site for the code for the site.
 
-* [Color Space](https://mycolor.space/)
-  * Used to create the color gradient for the background.
+* HTML
+  * This was used to create the basic structure of the site
+
+* CSS
+  * This was used to add style to the site
+
+* JavaScript
+  * This was used to create the logic behind the game
 
 ## Testing
 
