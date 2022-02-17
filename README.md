@@ -74,6 +74,6 @@ The site was deployed through Github. The steps to deploy the site are:
 
 ### Content
 * The background color used created suing [ColorSpace](https://mycolor.space/)
-* The responsive layout was at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
+* The responsive layout at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
 
 
