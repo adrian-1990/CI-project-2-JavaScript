@@ -6,6 +6,11 @@ let userChoice;
 let oppChoice;
 let result;
 
+let scoreHTML = document.getElementsByClassName('score')[0];
+let computerHTML = document.getElementsByClassName('opp-score')[0];
+let playerScore = 0;
+let computersScore = 0;
+
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
@@ -51,63 +56,92 @@ function getResult() {
     }
     if (oppChoice === 'rock' && userChoice === 'paper'){
         result = 'You win!!!'
+        increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'rock' && userChoice === 'scissors'){
       result = 'You lose!!!'
     }
     if (oppChoice === 'paper' && userChoice === 'scissors'){
       result = 'You win!!!'
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'paper' && userChoice === 'rock'){
       result = 'You lose!!!'
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'scissors' && userChoice === 'rock'){
       result = 'You win!!!'
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'scissors' && userChoice === 'paper'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'rock' && userChoice === 'lizard'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'lizard' && userChoice === 'rock'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'lizard' && userChoice === 'spock'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'spock' && userChoice === 'lizard'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'spock' && userChoice === 'scissors'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'scissors' && userChoice === 'spock'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'scissors' && userChoice === 'lizard'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'lizard' && userChoice === 'scissors'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'lizard' && userChoice === 'paper'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'paper' && userChoice === 'lizard'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'paper' && userChoice === 'spock'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'spock' && userChoice === 'paper'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     if (oppChoice === 'spock' && userChoice === 'rock'){
-      result = 'You lose!!!'
+      result = 'You lose!!!';
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'rock' && userChoice === 'spock'){
-      result = 'You win!!!'
+      result = 'You win!!!';
+      increasePlayerScore(scoreHTML);
     }
     resultDisplay.innerHTML = result;
   };
+
+  /* Player and Computers score is incremented */
+
+  function increasePlayerScore(score){
+    score.innerHTML = ++playerScore;
+  }
+
+  function increaseOppScore(score){
+    score.innerHTML = ++computersScore;
+  }
