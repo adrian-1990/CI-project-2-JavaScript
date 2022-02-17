@@ -6,10 +6,23 @@ let userChoice;
 let oppChoice;
 let result;
 
+/**
+ * Access players and computers score
+ * to increment after each round
+ */
+
 let scoreHTML = document.getElementsByClassName('score')[0];
 let computerHTML = document.getElementsByClassName('opp-score')[0];
 let playerScore = 0;
 let computersScore = 0;
+
+/**
+ * Appears when he player or computer
+ * has reached a score of 5 and wins the round
+ */
+const winnerModal = document.getElementsByClassName('winner-modal')[0];
+const modalHeader = document.getElementsByClassName('modal-header')[0];
+const modalParagraph = document.getElementsByClassName('modal-result')[0];
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -60,6 +73,7 @@ function getResult() {
     }
     if (oppChoice === 'rock' && userChoice === 'scissors'){
       result = 'You lose!!!'
+      increaseOppScore(computerHTML);
     }
     if (oppChoice === 'paper' && userChoice === 'scissors'){
       result = 'You win!!!'
