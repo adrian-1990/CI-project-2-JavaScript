@@ -39,9 +39,6 @@ I created my initial design on Balsamiq Wireframes to get an initial idea for th
 
 * Balsamiq
   * A wireframe was created to get the original deisgn layout.
- 
- * [Font Awesome](https://fontawesome.com/)
-   * The games icons were all taken from this site.
 
 * [Github](https://github.com/)
   * This was used as the host site for the code for the site.
@@ -65,6 +62,9 @@ I created my initial design on Balsamiq Wireframes to get an initial idea for th
 
 #### Lighthouse
 
+#### Bugs
+
+
 ## Deployment
 
 The site was deployed through Github. The steps to deploy the site are:
@@ -82,5 +82,6 @@ The site was deployed through Github. The steps to deploy the site are:
 * The background color used created suing [ColorSpace](https://mycolor.space/)
 * The responsive layout at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
 * The hero image on the site was taken from [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html)
-
+* The fonts came from [Google Fonts](https://fonts.google.com/)
+* The if statement in the JavaScript code was created with assistance form [w3schools](https://www.w3schools.com/js/js_if_else.asp)
 
