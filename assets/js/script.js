@@ -17,8 +17,8 @@ let playerScore = 0;
 let computersScore = 0;
 
 /**
- * Appears when the player or computer
- * has reached a score of 5 and wins the round
+ * Checks if the players or computers score is equal to 5
+ * Lets the player know if they have won or lost the round
  */
 const winnerBoard = document.getElementsByClassName('winnerBoard')[0];
 const winnerHeader = document.getElementsByClassName('winnerHeader')[0];
@@ -168,7 +168,7 @@ function getResult() {
     function declareWinner(winnerBoard, winnerHeader, winnerText ){
       if(playerScore === 5){
         winnerBoard.style.display = 'block';
-        winnerHeader.textContent = 'You win the game'
+        winnerHeader.textContent = 'You won the game'
         winnerText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
       }else if (computersScore === 5){
         winnerBoard.style.display = 'block';
