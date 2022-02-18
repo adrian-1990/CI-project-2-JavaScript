@@ -17,12 +17,12 @@ let playerScore = 0;
 let computersScore = 0;
 
 /**
- * Appears when he player or computer
+ * Appears when the player or computer
  * has reached a score of 5 and wins the round
  */
-const winnerModal = document.getElementsByClassName('winner-modal')[0];
-const modalHeader = document.getElementsByClassName('modal-header')[0];
-const modalParagraph = document.getElementsByClassName('modal-result')[0];
+const winnerBoard = document.getElementsByClassName('winnerBoard')[0];
+const winnerHeader = document.getElementsByClassName('winnerHeader')[0];
+const winnerText = document.getElementsByClassName('winnerText')[0];
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -164,3 +164,15 @@ function getResult() {
    * When the player or computer scores 5 points
    * a winner is declared
    */
+
+    function declareWinner(winnerBoard, winnerHeader, winnerText ){
+      if(playerScore === 5){
+        winnerBoard.style.display = 'block';
+        winnerHeader.textContent = 'You win the game'
+        winnerText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+      }else if (computersScore === 5){
+        winnerBoard.style.display = 'block';
+        winnerHeader.textContent = 'You lost the game'
+        winnerText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+      }
+    }
