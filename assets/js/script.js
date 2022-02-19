@@ -20,9 +20,10 @@ let computersScore = 0;
  * Checks if the players or computers score is equal to 5
  * Lets the player know if they have won or lost the round
  */
-const winnerBoard = document.getElementsByClassName('winnerBoard')[0];
-const winnerHeader = document.getElementsByClassName('winnerHeader')[0];
-const winnerText = document.getElementsByClassName('winnerText')[0];
+const winnerModal = document.getElementsByClassName('winner-modal')[0];
+const modalHeader = document.getElementsByClassName('modal-header')[0];
+const modalText = document.getElementsByClassName('modal-content')[0];
+
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -165,14 +166,14 @@ function getResult() {
    * a winner is declared
    */
 
-    function declareWinner(winnerBoard, winnerHeader, winnerText ){
+    function declareWinner(winnerModal, modalHeader, modalText){
       if(playerScore === 5){
-        winnerBoard.style.display = 'block';
-        winnerHeader.textContent = 'You won the game'
-        winnerText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+        winnerModal.style.display = 'block';
+        modalHeader.textContent = 'You won the game'
+        modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
       }else if (computersScore === 5){
-        winnerBoard.style.display = 'block';
-        winnerHeader.textContent = 'You lost the game'
-        winnerText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+        winnerModal.style.display = 'block';
+        modalHeader.textContent = 'You lost the game'
+        modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
       }
     }
