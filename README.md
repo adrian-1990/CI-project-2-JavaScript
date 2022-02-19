@@ -29,7 +29,10 @@ The game title will tell users what game they are playing. There is a section fo
 
 ### Skeleton
 
-I created my initial design on Balsamiq Wireframes to get an initial idea for the layout of the site on PC and mobile. As I was creating the site my layout changed slightly to what I originally planned.
+I created my initial design on Balsamiq Wireframes to get an initial idea for the layout of the site on PC and mobile. As I was creating the site my layout changed slightly to what I originally planned. I want the user to know what game they are playing as soon as the arrive at the site by a clear hero image, to know the rules of the game before they started playing and area to keep track of the score as they were playing.
+
+![pc wireframe](https://user-images.githubusercontent.com/79532281/154800977-eca5f3ea-dbec-4aab-814c-a1adda3c3e2b.png)
+
 
 ### Surface
 
