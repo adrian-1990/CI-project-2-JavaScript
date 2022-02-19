@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors, Lizard, Spock Game!
 
+![Am I responsive](https://user-images.githubusercontent.com/79532281/154800777-ad18c6a5-3475-4c4e-aa97-3aaae947b3ac.png)
+
 ## Introduction
 
 Below are links to the Github repository and the live site:
