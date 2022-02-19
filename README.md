@@ -100,4 +100,5 @@ The site was deployed through Github. The steps to deploy the site are:
 * The hero image on the site was taken from [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html)
 * The fonts came from [Google Fonts](https://fonts.google.com/)
 * The if statement in the JavaScript code was created with assistance from [w3schools](https://www.w3schools.com/js/js_if_else.asp)
+* I got the Spock favicon icon from [Icons8](https://icons8.com/icons/set/characters)
 
