@@ -1,8 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock Game!
 
-![Am I responsive](https://user-images.githubusercontent.com/79532281/154800777-ad18c6a5-3475-4c4e-aa97-3aaae947b3ac.png)
-
-## Introduction
+This is the classic game of Rock, Paper, Scissors but with the added twist of two new options, Lizard and Spock. This version game was made popular by the tv show The Big Bang Theory and with the introduction of two new options it decreases the chances of draws occuring. The site is created using HTML, CSS and JavaScript.
 
 Below are links to the Github repository and the live site:
 
@@ -11,30 +9,53 @@ Below are links to the Github repository and the live site:
 
 * [Live Site](https://adrian-1990.github.io/CI-project-2-JavaScript/)
 
+![Am I responsive](https://user-images.githubusercontent.com/79532281/154800777-ad18c6a5-3475-4c4e-aa97-3aaae947b3ac.png)
 
 
 ## UX - User Experience Design
 
-The site is created for user to have fun and challenge the computer to a game of Rock, Paper, Scissors, Lizard, Spock. The site can be used by new and return users. I want the site to have a bright and welcoming design to encourage users to return.
+### User Stories
+
+* The site is created for user to have fun and pass some time challenging the computer to a game of Rock, Paper, Scissors, Lizard, Spock. 
+
+* The site can be used by new and return users. 
+
+* I want the site to have a bright and welcoming design to encourage return visits.
 
 ### Strategy
 
-The site should be easy to use for new and return users. The site should have all the rules clearly visable, the icons should be interactive for users and you should find out the winner of each round.
+* The site should be easy to use for new and return users. 
+
+* The site should have all the rules clearly visable, the icons should be interactive for users and you should find out the winner of each round.
 
 ### Scope
 
 ### Structure
 
-The game title will tell users what game they are playing. There is a section for players to select what they want to play, a section to announce the winner and a section that contains the rules so user can know why they won / lost. There is a scoreboard to keep track of who is winning between the user and computer.
+* The games hero image tell users what game they are playing. 
+
+* Below the title will be the rules area, this will allow the players to know all the differant ways they can win and lose during the game. 
+
+* The five game icons will be below the rules area and this will be interactive. 
+
+* When a player selects an icon there selection and the computer selection will appear and the winner will be announced. There will a scoreboard to keep track of who is winning.
 
 ### Skeleton
 
-I created my initial design on Balsamiq Wireframes to get an initial idea for the layout of the site on PC and mobile. As I was creating the site my layout changed slightly to what I originally planned. I want the user to know what game they are playing as soon as the arrive at the site by a clear hero image, to know the rules of the game before they started playing and area to keep track of the score as they were playing.
+#### Wireframes
+
+* I created my initial design on Balsamiq Wireframes to get an initial idea for the layout of the site on PC and mobile. 
+
+* As I was creating the site my layout changed slightly to what I originally planned. I want the user to know what game they are playing as soon as the arrive at the site, to know the rules of the game before they started playing and area to keep track of the score as they were playing.
 
 ![pc wireframe](https://user-images.githubusercontent.com/79532281/154800977-eca5f3ea-dbec-4aab-814c-a1adda3c3e2b.png)
 
 
 ### Surface
+
+#### Design
+
+
 
 ## Features
 
