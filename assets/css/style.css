@@ -1,6 +1,14 @@
 body{
     text-align: center;
-    background-image: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff);
+    background: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff);
+    height:-webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+/* hero image */
+
+.hero-image{
+    height: 300px;
 }
 
 /* font style for  game rules header*/
@@ -95,3 +103,14 @@ body{
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+/* media queriers for 800px or less */
+
+@media screen and (max-width:800px) {
+    /* hero image */
+
+    .hero-image{
+        height: inherit;
+        width: -webkit-fill-available;
+    }
+    
+}

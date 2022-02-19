@@ -2,6 +2,7 @@ const userChoiceDisplay = document.getElementById('user-choice');
 const oppChoiceDisplay = document.getElementById('opp-choice');
 const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button')
+
 let userChoice;
 let oppChoice;
 let result;
@@ -17,13 +18,16 @@ let playerScore = 0;
 let computersScore = 0;
 
 /**
- * Checks if the players or computers score is equal to 5
- * Lets the player know if they have won or lost the round
+ * Gets the modal elements to create a function to declare the game winner
  */
 const winnerModal = document.getElementsByClassName('winner-modal')[0];
 const modalHeader = document.getElementsByClassName('modal-header')[0];
 const modalText = document.getElementsByClassName('modal-content')[0];
 
+/**
+ * Shows what selection the player has chosen, what the computer chose
+ * and give the winner or a draw
+ */
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
