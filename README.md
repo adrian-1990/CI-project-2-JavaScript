@@ -53,7 +53,7 @@ Below are links to the Github repository and the live site:
 
 ### Surface
 
-* The site has is bright and colorful and encourages user interaction. I wanted the colors to be welcoming and fun so the user would want to stay on the site and play a few rounds of the game.
+* The site has is bright and colourful and encourages user interaction. I wanted the colors to be welcoming and fun so the user would want to stay on the site and play a few rounds of the game.
 
 #### Typography
 
@@ -67,14 +67,13 @@ Below are links to the Github repository and the live site:
 
 * These fonts give the site a modern look and grabs the users attention.
 
-#### Color Scheme
+#### Colour Scheme
 
-* The color scheme was influenced by the hero image. I like the color of the hero image and wanted to use this type of color through out.
+* The colour scheme was influenced by the hero image. I like the colour of the hero image and wanted to use this type of color through out.
 
-* For the background I chose to use a liner gradient to add more color to the site. I chose the below colors for my background
+* For the background I chose to use a liner gradient to add more colour to the site. I chose the below colours for my background
 
-
-
+![color-scheme](https://user-images.githubusercontent.com/79532281/154999716-3fbe3a0b-cbcd-442b-8a85-4dd1b325b44a.png)
 
 
 ## Features
