@@ -54,7 +54,11 @@ Below are links to the Github repository and the live site:
 
 * **Winner Screen**
 
-![winner-modal-screen](https://user-images.githubusercontent.com/79532281/155028609-dca04448-e0e7-4f8e-8e95-e251ae41991b.png)
+![winner-modal-screen](https://user-images.githubusercontent.com/79532281/155029187-33297d5c-1648-43cf-b36b-5f236c9ba5ee.png)
+
+* **Mobile Layout**
+
+![mobile layout](https://user-images.githubusercontent.com/79532281/155029459-fad4ee59-2677-484a-9572-927fdf2822f1.png)
 
 
 ### Surface
