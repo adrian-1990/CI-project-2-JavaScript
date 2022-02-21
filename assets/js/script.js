@@ -35,25 +35,11 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
  */
 
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 5)
+  const randomPick = Math.floor(Math.random() * 5) - 1;
 
-    if (randomNumber === 1){
-        oppChoice = 'rock'
-    }
-    if (randomNumber === 2){
-        oppChoice = 'paper'
-    }
-    if (randomNumber === 3){
-        oppChoice = 'scissors'
-    }
-    if (randomNumber === 4){
-        oppChoice = 'lizard'
-    }
-    if (randomNumber === 5){
-        oppChoice === 'spock'
-    }
-
-    oppChoiceDisplay.innerHTML = oppChoice
+  const choices = ['rock' , 'paper' , 'scissors' , 'lizard' , 'spock'];
+  oppChoice = choices[randomPick] || 'rock';
+  oppChoiceDisplay.innerHTML = oppChoice
 }
 
 /**
