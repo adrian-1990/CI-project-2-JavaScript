@@ -53,7 +53,27 @@ Below are links to the Github repository and the live site:
 
 ### Surface
 
-#### Design
+* The site has is bright and colorful and encourages user interaction. I wanted the colors to be welcoming and fun so the user would want to stay on the site and play a few rounds of the game.
+
+#### Typography
+
+* I chose two fonts for the site. I wanted there to be a differance between the page header and the body of the game.
+
+* Header
+  * For the header I chose **Bebas Neue** as my main font with **cursive** as the backup.
+ 
+* Body
+  * For the rules and scoreboard area I chose **Yanone Kaffeesatz** as my main font with **sans-serif** as the backup.
+
+* These fonts give the site a modern look and grabs the users attention.
+
+#### Color Scheme
+
+* The color scheme was influenced by the hero image. I like the color of the hero image and wanted to use this type of color through out.
+
+* For the background I chose to use a liner gradient to add more color to the site. I chose the below colors for my background
+
+
 
 
 
