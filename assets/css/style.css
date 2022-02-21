@@ -43,23 +43,23 @@ body{
 }
 
 #rock{
-    background-image: url(../images/rock\ img.png);
+    background-image: url(../images/rock-icon.png);
 }
 
 #paper{
-    background-image: url(../images/paper\ img.png);
+    background-image: url(../images/paper-icon.png);
 }
 
 #scissors{
-    background-image: url(../images/scissors\ img.png);
+    background-image: url(../images/scissors-icon.png);
 }
 
 #lizard{
-    background-image: url(../images/lizard\ img.png);
+    background-image: url(../images/lizard-icon.png);
 }
 
 #spock{
-    background-image: url(../images/spock\ img.png);
+    background-image: url(../images/spock-icon.png);
 }
 
 /* results area */
