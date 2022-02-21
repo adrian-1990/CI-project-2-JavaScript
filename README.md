@@ -101,23 +101,23 @@ This area details all the differant way the player can win and how the computer 
 
 This area is where the player can make their selection. I really like the icons on the hero image so I copied these for the game buttons and this continues the same style throughout the page.
 
-* **Rock**
+**Rock**
 
 ![rock-icon](https://user-images.githubusercontent.com/79532281/155001922-f3b94ed3-992e-431e-a2c0-ecbecb884a1f.png)
 
-* **Paper**
+**Paper**
 
 ![paper-icon](https://user-images.githubusercontent.com/79532281/155001951-a7ac93ad-1a4e-415e-a588-d1199063154f.png)
 
-* **Scissors**
+**Scissors**
 
 ![scissors-icon](https://user-images.githubusercontent.com/79532281/155001978-fa51abf8-2169-4e48-9395-f63402337df5.png)
 
-* **Lizard**
+**Lizard**
 
 ![lizard-icon](https://user-images.githubusercontent.com/79532281/155002004-4d6e393a-d26f-4452-a047-555999eb4834.png)
 
-* **Spock**
+**Spock**
 
 ![spock-icon](https://user-images.githubusercontent.com/79532281/155002036-352e215a-1a03-4e7e-9340-343d90dca1e7.png)
 
