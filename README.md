@@ -78,7 +78,50 @@ Below are links to the Github repository and the live site:
 
 ## Features
 
-## Future Features
+### Site Structure
+
+The site consists of one main page with differant sections. The differant sections of the page are:
+
+* Hero image
+* Rules
+* Game Icons
+* Scoreboard
+
+#### Hero Image
+
+When the user logs onto the site the first element they come across is the Hero Image. I found this image on [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html). This is a bright and colorful and I really like the images they had for each game element.
+
+![hero image](https://user-images.githubusercontent.com/79532281/155001340-3691bee8-2ce3-4be8-9de6-0c803141b71b.png)
+
+#### Game Rules
+
+This area details all the differant way the player can win and how the computer can beat the players choice. 
+
+#### Game Buttons
+
+This area is where the player can make their selection. I really like the icons on the hero image so I copied these for the game buttons and this continues the same style throughout the page.
+
+* **Rock**
+![rock-icon](https://user-images.githubusercontent.com/79532281/155001922-f3b94ed3-992e-431e-a2c0-ecbecb884a1f.png)
+
+* **Paper**
+![paper-icon](https://user-images.githubusercontent.com/79532281/155001951-a7ac93ad-1a4e-415e-a588-d1199063154f.png)
+
+* **Scissors**
+![scissors-icon](https://user-images.githubusercontent.com/79532281/155001978-fa51abf8-2169-4e48-9395-f63402337df5.png)
+
+* **Lizard**
+![lizard-icon](https://user-images.githubusercontent.com/79532281/155002004-4d6e393a-d26f-4452-a047-555999eb4834.png)
+
+* **Spock**
+![spock-icon](https://user-images.githubusercontent.com/79532281/155002036-352e215a-1a03-4e7e-9340-343d90dca1e7.png)
+
+#### Scoreboard
+
+At the bottom of the page is a scoreboard for the player to keep track of how they are getting on against the computer.
+
+![score-board](https://user-images.githubusercontent.com/79532281/155002190-f1ef8bb8-4382-4a9f-a5d0-86b288d42e66.png)
+
 
 ## Technologies Used
 
