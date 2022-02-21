@@ -20,8 +20,8 @@ let computersScore = 0;
 /**
  * Gets the modal elements to create a function to declare the game winner
  */
-const winnerModal = document.getElementsByClassName('winner-modal')[0];
-const modalHeader = document.getElementsByClassName('modal-header')[0];
+const winnerModal = document.getElementsByClassName('modal')[0];
+const modalHeader = document.getElementsByClassName('modalHeader')[0];
 const modalText = document.getElementsByClassName('modal-content')[0];
 
 /**
