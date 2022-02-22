@@ -22,7 +22,7 @@ let computersScore = 0;
  * and give the winner or a draw
  */
 
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
+Array.from(possibleChoices).forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoice = e.target.id
   userChoiceDisplay.innerHTML = userChoice
   generateComputerChoice()
