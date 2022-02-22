@@ -137,6 +137,10 @@ At the bottom of the page is a scoreboard for the player to keep track of how th
 
 ![score-board](https://user-images.githubusercontent.com/79532281/155002190-f1ef8bb8-4382-4a9f-a5d0-86b288d42e66.png)
 
+### Future Features
+
+* I would like to add animation to my game buttons. When the user makes their selection the button will have an animation to change the image
+
 
 ## Technologies Used
 
