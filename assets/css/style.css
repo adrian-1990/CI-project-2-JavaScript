@@ -9,7 +9,7 @@ body{
 
 #home-screen h2{
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* font style for body of the game */
@@ -88,6 +88,22 @@ body{
   width: 40%;
   height: 40%;
   background-color: darkturquoise;
+}
+
+.modal-header{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin-top: 13%;
+}
+
+.modal-content{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+}
+
+.reset{
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
 }
 
 /* media queriers for 800px or less */
