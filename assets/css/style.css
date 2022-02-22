@@ -27,7 +27,7 @@ body{
 
 /* game buttons */
 
-.game-buttons button{
+.game-buttons{
     height: 65px;
     width: 65px;
     border-radius: 20%;

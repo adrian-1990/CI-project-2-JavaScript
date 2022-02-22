@@ -1,7 +1,7 @@
 const userChoiceDisplay = document.getElementById('user-choice');
 const oppChoiceDisplay = document.getElementById('opp-choice');
 const resultDisplay = document.getElementById('result');
-const possibleChoices = document.querySelectorAll('button')
+const possibleChoices = document.getElementsByClassName('game-buttons')
 
 let userChoice;
 let oppChoice;
@@ -172,7 +172,27 @@ function declareWinner(){
 
 /**
  * When the player clicks the play again button
- * the user will return to the game screen
- * scoreboard will be reset to zero for both players
+ * The user will return to the game screen
+ * Scoreboard will be reset to zero for both players
  */
+
+const playAgain = document.getElementsByClassName('reset')[0];
+
+playAgain.addEventListener('click', () => {
+  closeModal(winnerModal);
+})
+
+function closeModal(modal) {
+  modal.style.display = 'none';
+  resetGame(scoreHTML, computerHTML);
+}
+
+function resetGame() {
+  playerScore = 0;
+  computerScore = 0;
+  player.innerHTML = playerScore;
+  computer.innerHTML = computerScore;
+  document.getElementsByClassName('reset')
+}
+
 
