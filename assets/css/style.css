@@ -5,12 +5,6 @@ body{
     width: -webkit-fill-available;
 }
 
-/* hero image */
-
-.hero-image{
-    height: 300px;
-}
-
 /* font style for  game rules header*/
 
 #home-screen h2{
