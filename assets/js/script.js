@@ -169,3 +169,10 @@ function declareWinner(){
     modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
   }
 }
+
+/**
+ * When the player clicks the play again button
+ * the user will return to the game screen
+ * scoreboard will be reset to zero for both players
+ */
+
