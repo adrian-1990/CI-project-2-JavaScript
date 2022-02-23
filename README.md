@@ -216,5 +216,5 @@ The site was deployed through Github. The steps to deploy the site are:
 * The fonts came from [Google Fonts](https://fonts.google.com/)
 * The if statement in the JavaScript code was created with assistance from [W3Schools](https://www.w3schools.com/js/js_if_else.asp)
 * I got the Spock favicon icon from [Icons8](https://icons8.com/icons/set/characters)
-* The game winner modal was create was W3schools as a guide [W3Schools - How to make a modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
+* The game winner modal was create with W3schools as a guide [W3Schools - How to make a modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
 
