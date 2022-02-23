@@ -190,6 +190,8 @@ function closeModal(modal) {
 function resetGame() {
   playerScore = 0;
   computersScore = 0;
+  scoreHTML.innerHTML = playerScore;
+  computerHTML.innerHTML = computersScore;
   resultDisplay.innerHTML = '';
   userChoiceDisplay.innerHTML = '';
   oppChoiceDisplay.innerHTML = '';
