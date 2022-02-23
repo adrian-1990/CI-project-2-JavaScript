@@ -184,14 +184,15 @@ playAgain.addEventListener('click', () => {
 
 function closeModal(modal) {
   modal.style.display = 'none';
-  resetGame(scoreHTML, computerHTML);
+  resetGame();
 }
 
 function resetGame() {
   playerScore = 0;
-  computerScore = 0;
-  player.innerHTML = playerScore;
-  computer.innerHTML = computerScore;
+  computersScore = 0;
+  resultDisplay.innerHTML = '';
+  userChoiceDisplay.innerHTML = '';
+  oppChoiceDisplay.innerHTML = '';
   document.getElementsByClassName('reset')
 }
 
