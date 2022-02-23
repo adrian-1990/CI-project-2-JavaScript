@@ -163,7 +163,17 @@ At the bottom of the page is a scoreboard for the player to keep track of how th
 
 #### HTML
 
+* I tested my HTML in the HTML Validator. I fixed the warnings that were appearing and now the site passes with now issues.
+
+![HTML Validation](https://user-images.githubusercontent.com/79532281/155358125-7d4aeaad-b0d1-4090-8649-4115537c004a.png)
+
+
 #### CSS
+
+* I tested my CSS in the CSS validator. I fixed the warnings that appeared and now the site passes with no issue.
+
+![CSS validation](https://user-images.githubusercontent.com/79532281/155358540-53c5fbeb-4618-446e-99a9-d0ff1f89f8d8.png)
+
 
 #### JavaScript
 
