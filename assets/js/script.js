@@ -1,7 +1,7 @@
 const userChoiceDisplay = document.getElementById('user-choice');
 const oppChoiceDisplay = document.getElementById('opp-choice');
 const resultDisplay = document.getElementById('result');
-const possibleChoices = document.getElementsByClassName('game-buttons')
+const possibleChoices = document.getElementsByClassName('game-buttons');
 
 let userChoice;
 let oppChoice;
@@ -23,10 +23,10 @@ let computersScore = 0;
  */
 
 Array.from(possibleChoices).forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-  userChoice = e.target.id
-  userChoiceDisplay.innerHTML = userChoice
-  generateComputerChoice()
-  getResult()
+  userChoice = e.target.id;
+  userChoiceDisplay.innerHTML = userChoice;
+  generateComputerChoice();
+  getResult();
 }))
 
 /**
@@ -39,7 +39,7 @@ function generateComputerChoice() {
 
   const choices = ['rock' , 'paper' , 'scissors' , 'lizard' , 'spock'];
   oppChoice = choices[randomPick] || 'rock';
-  oppChoiceDisplay.innerHTML = oppChoice
+  oppChoiceDisplay.innerHTML = oppChoice;
 }
 
 /**
@@ -132,7 +132,7 @@ function getResult() {
     increasePlayerScore(scoreHTML);
   }
   resultDisplay.innerHTML = result;
-};
+}
 
 /* Player and Computers score is incremented */
 
@@ -161,12 +161,12 @@ const modalText = document.getElementsByClassName('modal-content')[0];
 function declareWinner(){
   if(playerScore === 5){
     winnerModal.style.display = 'block';
-    modalHeader.textContent = 'You won the game'
-    modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+    modalHeader.textContent = 'You won the game';
+    modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`;
   }else if (computersScore === 5){
     winnerModal.style.display = 'block';
-    modalHeader.textContent = 'You lost the game'
-    modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`
+    modalHeader.textContent = 'You lost the game';
+    modalText.textContent = `Players Score: ${playerScore} / Opponents Score: ${computersScore}`;
   }
 }
 
@@ -195,7 +195,7 @@ function resetGame() {
   resultDisplay.innerHTML = '';
   userChoiceDisplay.innerHTML = '';
   oppChoiceDisplay.innerHTML = '';
-  document.getElementsByClassName('reset')
+  document.getElementsByClassName('reset');
 }
 
 
