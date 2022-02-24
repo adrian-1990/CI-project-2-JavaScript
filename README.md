@@ -177,6 +177,10 @@ At the bottom of the page is a scoreboard for the player to keep track of how th
 
 #### JavaScript
 
+* I tested my JavaScript in JSHint. I fixed the errors and warnings that were appearing so now there are no issues appearing.
+
+![JS Testing](https://user-images.githubusercontent.com/79532281/155515847-6937ea9d-70b6-4ce7-bb59-0efa7077444c.png)
+
 #### Lighthouse
 
 #### Bugs
