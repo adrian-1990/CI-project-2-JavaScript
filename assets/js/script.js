@@ -27,7 +27,7 @@ Array.from(possibleChoices).forEach(possibleChoice => possibleChoice.addEventLis
   userChoiceDisplay.innerHTML = userChoice;
   generateComputerChoice();
   getResult();
-}))
+}));
 
 /**
  * Creates an array for computers choices
@@ -49,26 +49,26 @@ function generateComputerChoice() {
 
 function getResult() {
   if(oppChoice === userChoice){
-      result = 'Its a draw!'
+      result = 'Its a draw!';
   }
   if (oppChoice === 'rock' && userChoice === 'paper'){
-      result = 'You win!!!'
+      result = 'You win!!!';
       increasePlayerScore(scoreHTML);
   }
   if (oppChoice === 'rock' && userChoice === 'scissors'){
-    result = 'You lose!!!'
+    result = 'You lose!!!';
     increaseOppScore(computerHTML);
   }
   if (oppChoice === 'paper' && userChoice === 'scissors'){
-    result = 'You win!!!'
+    result = 'You win!!!';
     increasePlayerScore(scoreHTML);
   }
   if (oppChoice === 'paper' && userChoice === 'rock'){
-    result = 'You lose!!!'
+    result = 'You lose!!!';
     increaseOppScore(computerHTML);
   }
   if (oppChoice === 'scissors' && userChoice === 'rock'){
-    result = 'You win!!!'
+    result = 'You win!!!';
     increasePlayerScore(scoreHTML);
   }
   if (oppChoice === 'scissors' && userChoice === 'paper'){
@@ -180,7 +180,7 @@ const playAgain = document.getElementsByClassName('reset')[0];
 
 playAgain.addEventListener('click', () => {
   closeModal(winnerModal);
-})
+});
 
 function closeModal(modal) {
   modal.style.display = 'none';
