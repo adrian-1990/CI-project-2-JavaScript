@@ -23,6 +23,14 @@ body{
     list-style: none;
 }
 
+/* game-section */ 
+
+#game-section{
+    border-style: double;
+    width: 200px;
+    display: inline-block;
+}
+
 /* game buttons */
 
 .game-buttons{
@@ -123,6 +131,12 @@ body{
     .hero-image{
         height: inherit;
         width: -webkit-fill-available;
+    }
+
+    .game-section{
+    border-style: double;
+    width: -webkit-fill-available;
+    display: inline-block;
     }
     
 }
