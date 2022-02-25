@@ -133,10 +133,8 @@ body{
         width: -webkit-fill-available;
     }
 
-    .game-section{
-    border-style: double;
+    #game-section{
     width: -webkit-fill-available;
-    display: inline-block;
     }
     
 }
