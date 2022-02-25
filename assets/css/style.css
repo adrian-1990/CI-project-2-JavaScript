@@ -87,7 +87,7 @@ body{
   top: 0;
   width: 40%;
   height: 40%;
-  background-color: aliceblue;
+  background-color: ivory;
   border-style: solid;
 }
 
@@ -105,9 +105,16 @@ body{
 .reset{
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
-    color: mediumaquamarine;
+    color: #0fc1ff;
     border-style: solid;
-    border-color: mediumaquamarine;
+    border-color: #0fc1ff;
+}
+
+.reset:hover{
+    background-color:#0fc1ff;
+    cursor: pointer;
+    color: black;
+    border-color: black;
 }
 
 /* media queriers for 800px or less */
