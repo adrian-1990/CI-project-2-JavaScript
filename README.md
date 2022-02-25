@@ -114,7 +114,7 @@ This area details all the differant way the player can win and how the computer 
 
 #### Game Buttons
 
-This area is where the player can make their selection. I really like the icons on the hero image so I copied these for the game buttons and this continues the same style throughout the page.
+This area is where the player can make their selection. I find these images really unique to the other icons you can find for this game online and carry through the style of the hero image throughout the page. The player interacts with the game buttons by clicking on them, the mouse cursor will change to a pointer to notify the player the buttons can be interacted with.
 
 **Rock**
 
@@ -136,7 +136,6 @@ This area is where the player can make their selection. I really like the icons 
 
 ![spock-icon](https://user-images.githubusercontent.com/79532281/155002036-352e215a-1a03-4e7e-9340-343d90dca1e7.png)
 
-I find these images really unique to the other icons you can find for this game online and carry through the style of the hero image throughout the page.
 
 #### Scoreboard
 
