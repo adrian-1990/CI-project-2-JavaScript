@@ -30,11 +30,13 @@ Below are links to the Github repository and the live site:
 
 ### Scope
 
+* When new users log onto the site they should know exactly what the game is, what each object can defeat and be defeated by, and finally an area for the player to play the game. The style and colur scheme should carry through the entire page to give the site a uniformed look and improve user experience.
+
 ### Structure
 
 * The games hero image tell users what game they are playing. 
 
-* Below the title will be the rules area, this will allow the players to know all the differant ways they can win and lose during the game. 
+* Below the hero image will be the rules area, this will allow the players to know all the differant ways they can win and lose during the game. 
 
 * The five game icons will be below the rules area and this will be interactive. 
 
@@ -133,6 +135,8 @@ This area is where the player can make their selection. I really like the icons 
 **Spock**
 
 ![spock-icon](https://user-images.githubusercontent.com/79532281/155002036-352e215a-1a03-4e7e-9340-343d90dca1e7.png)
+
+I find these images really unique to the other icons you can find for this game online and carry through the style of the hero image throughout the page.
 
 #### Scoreboard
 
