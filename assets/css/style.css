@@ -136,6 +136,7 @@ body{
 
     #game-section{
     width: -webkit-fill-available;
+    padding: 10px;
     }
     
 }
