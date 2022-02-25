@@ -70,7 +70,7 @@ Below are links to the Github repository and the live site:
 * I chose two fonts for the site. I wanted there to be a differance between the page header and the body of the game.
 
 * Header
-  * For the header I chose **Bebas Neue** as my main font with **cursive** as the backup.
+  * For the header in my modal I chose **Bebas Neue** as my main font with **cursive** as the backup.
  
 * Body
   * For the rules and scoreboard area I chose **Yanone Kaffeesatz** as my main font with **sans-serif** as the backup.
@@ -107,6 +107,9 @@ When the user logs onto the site the first element they come across is the Hero 
 
 This area details all the differant way the player can win and how the computer can beat the players choice. 
 
+![rules area](https://user-images.githubusercontent.com/79532281/155753185-64a64717-349f-4a28-a0ff-f0f5d51ca174.png)
+
+
 #### Game Buttons
 
 This area is where the player can make their selection. I really like the icons on the hero image so I copied these for the game buttons and this continues the same style throughout the page.
@@ -140,6 +143,8 @@ At the bottom of the page is a scoreboard for the player to keep track of how th
 ### Future Features
 
 * I would like to add animation to my game buttons. When the user makes their selection the button will have an animation to change the image
+
+* I would like to add images to the winnder modal. For example, if the player won an image of spock would appear congratulating them and if they lost maybe an image of Scissors cutting paper to tie in with the differant way the player can lose
 
 
 ## Technologies Used
