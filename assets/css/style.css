@@ -115,6 +115,9 @@ body{
 .reset{
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
+    color: mediumaquamarine;
+    border-style: solid;
+    border-color: mediumaquamarine;
 }
 
 /* media queriers for 800px or less */
