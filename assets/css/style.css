@@ -1,8 +1,6 @@
 body{
     text-align: center;
-    background: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff);
-    height:-webkit-fill-available;
-    width: -webkit-fill-available;
+    background: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff) no-repeat fixed;
 }
 
 /* font style for  game rules header*/
@@ -125,6 +123,18 @@ body{
     .hero-image{
         height: inherit;
         width: -webkit-fill-available;
+    }
+    
+}
+
+
+@media screen and (max-width:360px) {
+
+    .modal{
+        width: 60%;
+        height: 40%;
+        margin-top: 50%;
+        margin-left: 19%;
     }
     
 }
