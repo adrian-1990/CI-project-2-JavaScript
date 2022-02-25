@@ -19,6 +19,15 @@ body{
     font-size: 25px;
 }
 
+/* rules area styling */
+
+.rules-area{
+    border: solid;
+    width: 60%;
+    display: inline-block;
+    border-style: dotted;  
+}
+
 /* game rules list */
 
 .game-rules{
@@ -60,6 +69,7 @@ body{
 /* results area */
 
 .result-area{
+    position: inherit;
     padding-top: 2%;
 }
 
@@ -87,7 +97,8 @@ body{
   top: 0;
   width: 40%;
   height: 40%;
-  background-color: darkturquoise;
+  background-color: aliceblue;
+  border-style: solid;
 }
 
 .modal-header{
