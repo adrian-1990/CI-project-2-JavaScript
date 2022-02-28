@@ -9,7 +9,7 @@ Below are links to the Github repository and the live site:
 
 * [Live Site](https://adrian-1990.github.io/CI-project-2-JavaScript/)
 
-![Am I responsive](https://user-images.githubusercontent.com/79532281/154800777-ad18c6a5-3475-4c4e-aa97-3aaae947b3ac.png)
+![Am I responsive](https://user-images.githubusercontent.com/79532281/155995947-e70ae0fe-1067-45cc-8d43-b968067a350b.png)
 
 
 ## UX - User Experience Design
