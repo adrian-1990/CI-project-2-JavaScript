@@ -191,6 +191,11 @@ At the bottom of the page is a scoreboard for the player to keep track of how th
 
 #### Lighthouse
 
+I tested my site through Lighthouse to check it was achieving a score over 90 on all categories. All catergories scored over 90 so I was happy with the result.
+
+![lighthouse second test](https://user-images.githubusercontent.com/79532281/155999935-a46e1ca1-7991-451d-9953-f940576f2749.png)
+
+
 #### Bugs
 
 When playing the early version of the game the users choice would not appear, you would only see the computers choice and result. After investigating through Google dev tools I discovered this was because you could not select the button correctly.
