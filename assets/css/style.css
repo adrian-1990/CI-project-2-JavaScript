@@ -142,6 +142,7 @@ body{
     
 }
 
+/* media queriers for screens smaller than 360px */
 
 @media screen and (max-width:360px) {
 

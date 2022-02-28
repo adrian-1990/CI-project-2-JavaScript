@@ -45,6 +45,7 @@ function generateComputerChoice() {
 /**
  * Checks a string of userChoice and oppChoice
  * A winner is declared for the round and you are notified if you are the winner, lost the round or it's a draw.
+ * Code was created with guidance from w3school
  */
 
 function getResult() {
@@ -148,6 +149,7 @@ function increaseOppScore(score){
 
 /**
  * Gets the modal elements to create a function to declare the game winner
+ * Modal was created with guidance from w3school
  */
 const winnerModal = document.getElementsByClassName('modal')[0];
 const modalHeader = document.getElementsByClassName('modal-header')[0];
