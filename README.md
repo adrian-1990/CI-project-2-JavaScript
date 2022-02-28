@@ -81,7 +81,7 @@ Below are links to the Github repository and the live site:
 
 #### Colour Scheme
 
-* The colour scheme was influenced by the hero image. I like the colour of the hero image and wanted to use this type of color through out.
+* The colour scheme was influenced by the hero image. I like the colour of the hero image and wanted to use this type of color through out. Because the site is a game, I wanted the colour scheme to be bright and fun and the user to get a positive interaction.
 
 * For the background I chose to use a liner gradient to add more colour to the site. I chose the below colours for my background
 
