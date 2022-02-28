@@ -18,8 +18,9 @@ let playerScore = 0;
 let computersScore = 0;
 
 /**
- * Shows what selection the player has chosen, what the computer chose
- * and give the winner or a draw
+ * Shows what selection the player has made, 
+ * what choice the computer has made
+ * and lets you know if won, lost or drew
  */
 
 Array.from(possibleChoices).forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
