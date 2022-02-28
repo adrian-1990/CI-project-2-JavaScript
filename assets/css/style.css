@@ -21,6 +21,7 @@ body{
 
 .game-rules{
     list-style: none;
+    display: contents;
 }
 
 /* game-section */ 
