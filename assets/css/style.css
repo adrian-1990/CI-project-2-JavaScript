@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff) no-repeat fixed;
+    background: #00afc4;
 }
 
 /* title */
@@ -9,7 +9,6 @@ body{
     font-family: 'Bebas Neue';
     font-size: 70px;
     color: white;
-    background: #00afc4;
     margin-top: auto;
 }
 
@@ -35,6 +34,7 @@ body{
     display: inline-block;
     padding: 15px;
     margin-top: 2%;
+    background: powderblue;
 }
 
 /* game buttons */
