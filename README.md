@@ -40,7 +40,7 @@ Below are links to the Github repository and the live site:
 
 * The five game icons will be below the rules area and this will be interactive. 
 
-* When a player selects an icon there selection and the computer selection will appear and the winner will be announced. There will a scoreboard to keep track of who is winning.
+* When a player selects an icon their selection and the computer selection will appear and the winner will be announced. There will a scoreboard to keep track of who is winning. The first player to win 5 rounds wins the game.
 
 ### Skeleton
 
