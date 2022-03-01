@@ -3,13 +3,6 @@ body{
     background: linear-gradient(to right top, #ceda93, #97dba3, #53d8c3, #00cfe6, #0fc1ff) no-repeat fixed;
 }
 
-/* font style for  game rules header*/
-
-#home-screen h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-}
-
 /* font style for body of the game */
 
 .rules-area p, .game-rules li, .result-area{
@@ -43,6 +36,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    margin: 5px 10px;
 }
 
 #rock{
@@ -68,7 +62,9 @@ body{
 /* results area */
 
 .result-area{
+    font-family: 'Bebas Neue', cursive;
     padding-top: 2%;
+    letter-spacing: 1px;
 }
 
 .result-area div{
