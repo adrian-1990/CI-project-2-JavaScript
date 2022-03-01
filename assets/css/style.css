@@ -122,13 +122,13 @@ body{
 .reset{
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
-    color: #0fc1ff;
+    color: #00afc4;
     border-style: solid;
-    border-color: #0fc1ff;
+    border-color: #00afc4;
 }
 
 .reset:hover{
-    background-color:#0fc1ff;
+    background-color:#00afc4;
     cursor: pointer;
     color: black;
     border-color: black;
