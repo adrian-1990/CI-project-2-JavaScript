@@ -14,9 +14,10 @@ body{
 
 /* font style for body of the game */
 
-.rules-area p, .game-rules li, .result-area{
+.rules-area p, .game-rules li{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
+    letter-spacing: 0.5px;
 }
 
 /* game rules list */
