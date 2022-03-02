@@ -201,4 +201,27 @@ function resetGame() {
   document.getElementsByClassName('reset');
 }
 
+/**
+ * Rules modal
+ * Click the rules buttton for rules to appear
+ * Click the X button to close the modal
+ */
+
+const rulesModal = document.getElementsByClassName('rules-modal')[0];
+const rulesContent = document.getElementsByClassName('rules-content')[0];
+const openRules = document.getElementById('rules-button');
+const closeButton = document.getElementsByClassName('close')[0];
+
+openRules.addEventListener('click', () => {
+  rulesModal.style.display = 'block';
+  gamesRules();
+});
+
+closeButton.addEventListener('click', () =>{
+  rulesModal.style.display = 'none';
+});
+
+function gamesRules(rulesContent) {
+  rulesContent.innerHTML = 'Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, Rock crushes Scissors';
+}
 
