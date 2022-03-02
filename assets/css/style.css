@@ -29,6 +29,7 @@ body{
 #rules-button:hover{
     background-color: #22375e;
     cursor: pointer;
+    transition: all .35s;
 }
 
 /* font style for body of the game */
