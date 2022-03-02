@@ -32,9 +32,6 @@ body{
     transition: all .35s;
 }
 
-/* font style for body of the game */
-
-
 /* game-section */ 
 
 #game-section{
@@ -135,10 +132,13 @@ body{
 
 .rules-content{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    list-style: none;
 }
 
 .close{
     float: right;
+    font-family: 'Bebas Neue';
     font-size: 28px;
 }
 
