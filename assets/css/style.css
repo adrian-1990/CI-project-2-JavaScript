@@ -150,30 +150,38 @@ body{
 }
 
 /* winners modal */
+
+.modal{
+    background: #22375e;
+}
 .modal-header{
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
     margin-top: 13%;
+    color: white;
 }
 
 .modal-content{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: x-large;
+    color: white;
 }
 
 .reset{
     font-family: 'Bebas Neue', cursive;
+    background: #00afc4;
     font-size: x-large;
-    color: #00afc4;
+    color: white;
     border-style: solid;
-    border-color: #00afc4;
+    border-color: white;
+    border-radius: 10px;
 }
 
 .reset:hover{
-    background-color:#00afc4;
+    background-color:white;
     cursor: pointer;
-    color: black;
-    border-color: black;
+    color: #00afc4;
+    border-color: #00afc4;
 }
 
 /* media queries for 970px or less */
