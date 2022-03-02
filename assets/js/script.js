@@ -214,14 +214,10 @@ const closeButton = document.getElementsByClassName('close')[0];
 
 openRules.addEventListener('click', () => {
   rulesModal.style.display = 'block';
-  gamesRules();
 });
 
 closeButton.addEventListener('click', () =>{
   rulesModal.style.display = 'none';
 });
 
-function gamesRules(rulesContent) {
-  rulesContent.innerHTML = 'Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, Rock crushes Scissors';
-}
 
