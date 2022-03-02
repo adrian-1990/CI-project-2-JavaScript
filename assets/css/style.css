@@ -12,6 +12,25 @@ body{
     margin-top: auto;
 }
 
+/* rules button */
+
+#rules-button{
+    height: 60px;
+    width: 140px;
+    font-family: 'Bebas Neue';
+    font-size: 170%;
+    letter-spacing: 0.5px;
+    border: solid;
+    border-radius: 10px;
+    color: white;
+    background-color: #738b94;
+}
+
+#rules-button:hover{
+    background-color: #22375e;
+    cursor: pointer;
+}
+
 /* font style for body of the game */
 
 
