@@ -100,19 +100,6 @@ body{
 /* modal */
 
 /* style for rules modal and winner modal */
-.modal{
-  display: none;
-  position: fixed;
-  z-index: 1;
-  margin-top: 15%;
-  margin-left: 30%;
-  left: 0;
-  top: 0;
-  width: 40%;
-  height: 40%;
-  background-color: ivory;
-  border-style: solid;
-}
 
 /* rules modal */
 
@@ -154,8 +141,19 @@ body{
 /* winners modal */
 
 .modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-top: 15%;
+    margin-left: 30%;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 40%;
     background: #22375e;
-}
+    border-style: solid;
+  }
+
 .modal-header{
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
