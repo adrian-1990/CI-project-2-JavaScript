@@ -122,6 +122,9 @@ body{
 .rules-content{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: x-large;
+}
+
+.rules-content ul{
     list-style: none;
 }
 
@@ -230,6 +233,7 @@ body{
         height: auto;
         margin-left: 0%;
         margin-top: 55%;
+        padding-bottom: 0px;
     }
 
     .modal{
