@@ -206,10 +206,17 @@ body{
         height: auto;
         margin-left: auto;
         margin-top: 40%;
+        position: absolute;
+        margin-left: 21%;
+        padding-bottom: 10px;
+    }
+
+    #rules-button{
+        margin-top: 5%;
     }
 
     #game-section{
-    width: -webkit-fill-available;
+    width: auto;
     padding: 10px;
     }  
 }
