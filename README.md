@@ -94,16 +94,17 @@ Below are links to the Github repository and the live site:
 
 The site consists of one main page with differant sections. The differant sections of the page are:
 
-* Hero image
-* Rules
+* Games title
+* Rules modal
 * Game Icons
 * Scoreboard
+* Winners modal
 
-#### Hero Image
+#### Game Title
 
-When the user logs onto the site the first element they come across is the Hero Image. I found this image on [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html). This is a bright and colorful and I really like the images they had for each game element.
+At the top of the screen is the games title. This will let the player know what game they are playing. This will include the images that also appear as the game buttons. This will carry out the same style throughout the site.
 
-![hero image](https://user-images.githubusercontent.com/79532281/155001340-3691bee8-2ce3-4be8-9de6-0c803141b71b.png)
+![game title](https://user-images.githubusercontent.com/79532281/156549093-90f150cd-f944-4c7c-81fe-6f243eb2a502.png)
 
 #### Game Rules
 
