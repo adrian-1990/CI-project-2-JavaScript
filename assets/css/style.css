@@ -39,7 +39,7 @@ body{
     width: 500px;
     display: inline-block;
     padding: 15px;
-    margin-top: 2%;
+    margin-top: 5%;
     background: powderblue;
 }
 
@@ -129,6 +129,7 @@ body{
   border-style: solid;
   background-color: #22375e;
   color: white;
+  letter-spacing: 0.5px;
 }
 
 .rules-content{
@@ -218,6 +219,13 @@ body{
 /* media queriers for screens smaller than 360px */
 
 @media screen and (max-width:360px) {
+
+    #rules{
+        width: auto;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 80%;
+    }
 
     .modal{
         width: 60%;
