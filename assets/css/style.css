@@ -34,7 +34,7 @@ body{
 
 /* game-section */ 
 
-#game-section{
+#game-area{
     border-style: solid;
     width: 500px;
     display: inline-block;
@@ -218,7 +218,7 @@ body{
         margin-top: 5%;
     }
 
-    #game-section{
+    #game-area{
     width: auto;
     padding: 10px;
     }  
