@@ -4,10 +4,10 @@ This is the classic game of Rock, Paper, Scissors but with the added twist of tw
 
 Below are links to the Github repository and the live site:
 
-* [Github](https://github.com/adrian-1990/CI-project-2-JavaScript)
+* **[Github](https://github.com/adrian-1990/CI-project-2-JavaScript)**
 
 
-* [Live Site](https://adrian-1990.github.io/CI-project-2-JavaScript/)
+* **[Live Site](https://adrian-1990.github.io/CI-project-2-JavaScript/)**
 
 ![Am I responsive](https://user-images.githubusercontent.com/79532281/156548154-95f33795-73e2-4106-925b-64d86999fe9d.png)
 
@@ -30,7 +30,7 @@ Below are links to the Github repository and the live site:
 
 ### Scope
 
-* When new users log onto the site they should know exactly what the game is, what each object can defeat and be defeated by, and finally an area for the player to play the game. The style and colour scheme should carry through the entire page to give the site a uniformed look and improve user experience.
+When new users log onto the site they should know exactly what the game is, what each object can defeat and be defeated by, and finally an area for the player to play the game. The style and colour scheme should carry through the entire page to give the site a uniformed look and improve user experience.
 
 ### Structure
 
@@ -46,13 +46,13 @@ Below are links to the Github repository and the live site:
 
 #### Wireframes
 
-* I created my initial design on Balsamiq Wireframes to get an idea for the layout of the site on PC and mobile. 
+I created my initial design on Balsamiq Wireframes to get an idea for the layout of the site on PC and mobile. 
 
-* As I was creating the site my layout changed to what I originally planned. I felt the site did not provide a positive UX when veiwed on a mobile screen so I decided to put the game rules in a modal that can be accessed by a button. This reduced the amount of information that was appearing and if the user wants to know the rules they can still access them. When a user arrives on the site they will see the game title, game rules button and the game area. This will provide a positive UX as they can start playing the game straight away without having to scroll through the rules area first.
+As I was creating the site my layout changed to what I originally planned. I felt the site did not provide a positive UX when veiwed on a mobile screen so I decided to put the game rules in a modal that can be accessed by a button. This reduced the amount of information that was appearing and if the user wants to know the rules they can still access them. When a user arrives on the site they will see the game title, game rules button and the game area. This will provide a positive UX as they can start playing the game straight away without having to scroll through the rules area first.
 
-* **Game Layout**
+**Game Layout**
 
-* This was my original layout.
+* **This was my original layout.**
 
 ![pc wireframe](https://user-images.githubusercontent.com/79532281/154800977-eca5f3ea-dbec-4aab-814c-a1adda3c3e2b.png)
 
@@ -80,13 +80,13 @@ Below are links to the Github repository and the live site:
 
 ### Surface
 
-* The site is bright and colourful and encourages user interaction. The site is a game so the user should want to stay on the site and have fun playing the game. When doing research for the project I came across the below image. I really liked the colour and the images used for each game element. I decided to use this as the base for my style and colour choices.
+The site is bright and colourful and encourages user interaction. The site is a game so the user should want to stay on the site and have fun playing the game. When doing research for the project I came across the below image. I really liked the colour and the images used for each game element. I decided to use this as the base for my style and colour choices.
 
 ![hero-image](https://user-images.githubusercontent.com/79532281/156570739-c437d28a-0c1c-4c73-be17-f3098f178ad8.png)
 
 #### Typography
 
-* I chose to use two differant fonts for the site.
+I chose to use two differant fonts for the site.
 
 * Title / Headers / Result
   * For the game title, headers in my modal and result area I chose to use **Bebas Neue** as my main font with **cursive** as the backup.
@@ -94,13 +94,13 @@ Below are links to the Github repository and the live site:
 * Body
   * For the game rules and scoreboard  I chose to use **Yanone Kaffeesatz** as my main font with **sans-serif** as the backup.
 
-* These fonts give the site a modern look and grabs the users attention.
+These fonts give the site a modern look and grabs the users attention.
 
 #### Colour Scheme
 
-* The colour scheme was influenced by the image I found online. I like the background colour of the image and decided to use this as the background color for the site. Because the site is a game, I wanted the colour scheme to be bright and fun and the user to get a UX. To help with a colour scheme I used [Colormind](http://colormind.io/). I inputted the the background colour as my main colour and generated a colour scheme that I liked and felt had good contrast to help with accesibility on the site. 
+The colour scheme was influenced by the image I found online. I like the background colour of the image and decided to use this as the background color for the site. Because the site is a game, I wanted the colour scheme to be bright and fun and the user to get a UX. To help with a colour scheme I used [Colormind](http://colormind.io/). I inputted the the background colour as my main colour and generated a colour scheme that I liked and felt had good contrast to help with accesibility on the site. 
 
-* Below is the colour palette I chose:
+Below is the colour palette I chose:
 
 ![color pallette 2](https://user-images.githubusercontent.com/79532281/156571894-17920185-3c4a-4c46-88cb-6a4a8caa95c1.png)
 
@@ -171,7 +171,7 @@ After the user makes their selection below the game buttons is the result area. 
 
 #### Scoreboard
 
-Below the result Area is the scoreboard. This keeps track on if the player won a round or the computer did. Depending on the winner the score is incremented, if it is a draw nobodys score will increase. This adds tension and excitment to the game as the user and computer could be level on score, 4 points each, and the next decision could be the winning or losing choice.
+Below the result area is the Scoreboard. This keeps track on if the player won a round or the computer did. Depending on the winner the score is incremented, if it is a draw nobodys score will increase. This adds tension and excitment to the game as the user and computer could be level on score, 4 points each, and the next decision could be the winning or losing choice.
 
 ![score-board](https://user-images.githubusercontent.com/79532281/156576088-66c08803-765a-42b3-84d7-55bf98df4132.png)
 
