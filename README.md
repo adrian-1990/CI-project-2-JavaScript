@@ -85,7 +85,7 @@ Below are links to the Github repository and the live site:
 
 * For the background I chose to use a liner gradient to add more colour to the site. I chose the below colours for my background
 
-![color-scheme](https://user-images.githubusercontent.com/79532281/154999716-3fbe3a0b-cbcd-442b-8a85-4dd1b325b44a.png)
+![color pallette 2](https://user-images.githubusercontent.com/79532281/156548339-5359cea8-1bfb-4028-b446-30732b75088a.png)
 
 
 ## Features
