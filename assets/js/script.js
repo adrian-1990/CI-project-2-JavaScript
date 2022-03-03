@@ -219,4 +219,3 @@ closeButton.addEventListener('click', () =>{
   rulesModal.style.display = 'none';
 });
 
-
