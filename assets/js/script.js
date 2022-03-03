@@ -208,7 +208,6 @@ function resetGame() {
  */
 
 const rulesModal = document.getElementsByClassName('rules-modal')[0];
-const rulesContent = document.getElementsByClassName('rules-content')[0];
 const openRules = document.getElementById('rules-button');
 const closeButton = document.getElementsByClassName('close')[0];
 
