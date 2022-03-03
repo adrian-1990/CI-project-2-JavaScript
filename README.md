@@ -16,9 +16,9 @@ Below are links to the Github repository and the live site:
 
 ### User Stories
 
-* The site is created for user to have fun and pass some time challenging the computer to a game of Rock, Paper, Scissors, Lizard, Spock. 
+* The site is created for users to have fun and pass some time challenging the computer to a game of Rock, Paper, Scissors, Lizard, Spock. 
 
-* The site can be used by new and return users. 
+* The site can be used by new and returning users. 
 
 * I want the site to have a bright and welcoming design to encourage return visits.
 
@@ -30,7 +30,7 @@ Below are links to the Github repository and the live site:
 
 ### Scope
 
-* When new users log onto the site they should know exactly what the game is, what each object can defeat and be defeated by, and finally an area for the player to play the game. The style and colur scheme should carry through the entire page to give the site a uniformed look and improve user experience.
+* When new users log onto the site they should know exactly what the game is, what each object can defeat and be defeated by, and finally an area for the player to play the game. The style and colour scheme should carry through the entire page to give the site a uniformed look and improve user experience.
 
 ### Structure
 
@@ -38,21 +38,21 @@ Below are links to the Github repository and the live site:
 
 * Below the title will be the game rules button. If players are intrested in finding out the rules of the game they can press the button and a modal will appear with the rules of the game and how a winner is declared.
 
-* Below the game rules button will be the game area. This will contain the game buttons, a result area to declare the round winner and a scoreboard to keep track of who is winning. The first player to 5 points wins the round.
+* Below the game rules button will be the game area. This will contain the game buttons, a result area to declare the winner and a scoreboard to keep track of who is winning. 
 
-* When a player selects an icon, their selection and the computer selection will appear in the players choice / opp choice and the winner will be announced. There will a 
+* When a player selects an icon, their selection and the computers selection will appear in the players choice / opp choice and the winner will be announced. The first player to 5 points wins the round. When a player has 5 points a modal will appear letting the user know if they won or lost and a button to play again.
 
 ### Skeleton
 
 #### Wireframes
 
-* I created my initial design on Balsamiq Wireframes to get an initial idea for the layout of the site on PC and mobile. 
+* I created my initial design on Balsamiq Wireframes to get an idea for the layout of the site on PC and mobile. 
 
-* As I was creating the site my layout changed to what I originally planned. I felt the site looked very busy when veiwed on a mobile screen so I decided to put the game rules in a modal that can be accessed by a button. This reduced the amount of information that was appearing and if the user wants to know the rules they can still access them. When the user arrives on the site they will see the game title, game rules button and the game area. This will provide a positive user experience as they can start playing the game straight away without having to scroll through ass the rules first.
+* As I was creating the site my layout changed to what I originally planned. I felt the site did not provide a positive UX when veiwed on a mobile screen so I decided to put the game rules in a modal that can be accessed by a button. This reduced the amount of information that was appearing and if the user wants to know the rules they can still access them. When a user arrives on the site they will see the game title, game rules button and the game area. This will provide a positive UX as they can start playing the game straight away without having to scroll through the rules area first.
 
 * **Game Layout**
 
-* This was my original layout that I was going to use.
+* This was my original layout.
 
 ![pc wireframe](https://user-images.githubusercontent.com/79532281/154800977-eca5f3ea-dbec-4aab-814c-a1adda3c3e2b.png)
 
@@ -64,7 +64,7 @@ Below are links to the Github repository and the live site:
 
 ![mobile layout](https://user-images.githubusercontent.com/79532281/155029459-fad4ee59-2677-484a-9572-927fdf2822f1.png)
 
-* As I neared completion of my project I was not happy with how the site looked on a mobile device so I decided to create a game rules button and change the image to a title. This reduced the amount of elements appearing on the screen and gives the site a cleaner look. Below is my final layout design
+* As I neared completion of my project I was not happy with how the site looked on a mobile device so I decided to create a game rules button and change the image to a title. This reduced the amount of elements appearing on the screen and gives the site a cleaner look when viewed on desktop and mobile. Below is my final layout design
 
 * **Game Layout**
 
@@ -86,7 +86,7 @@ Below are links to the Github repository and the live site:
 
 #### Typography
 
-* I chose two fonts for the site. I wanted there to be a differance between the page header and the body of the game.
+* I chose to use two differant fonts for the site.
 
 * Title / Headers / Result
   * For the game title, headers in my modal and result area I chose to use **Bebas Neue** as my main font with **cursive** as the backup.
@@ -98,7 +98,9 @@ Below are links to the Github repository and the live site:
 
 #### Colour Scheme
 
-* The colour scheme was influenced by the hero image. I like the background colour of the hero image and decided to use this as the background color for the site. Because the site is a game, I wanted the colour scheme to be bright and fun and the user to get a positive interaction. To help with a colour scheme I used [Colormind](http://colormind.io/). I inputted the the background colour as my main colour and generated a colour scheme that I liked and felt had good contrast to help with accesibility on the site. Below is the colour palette I chose:
+* The colour scheme was influenced by the image I found online. I like the background colour of the image and decided to use this as the background color for the site. Because the site is a game, I wanted the colour scheme to be bright and fun and the user to get a UX. To help with a colour scheme I used [Colormind](http://colormind.io/). I inputted the the background colour as my main colour and generated a colour scheme that I liked and felt had good contrast to help with accesibility on the site. 
+
+* Below is the colour palette I chose:
 
 ![color pallette 2](https://user-images.githubusercontent.com/79532281/156571894-17920185-3c4a-4c46-88cb-6a4a8caa95c1.png)
 
@@ -106,22 +108,23 @@ Below are links to the Github repository and the live site:
 
 ### Site Structure
 
-The site consists of one main page with differant sections. The differant sections of the site are:
+The site consists of one main page with four differant sections. Some areas of the site are only accessibly by interacting with a button or reaching the target game score.
+The differant sections of the site are:
 
 * Games title
-* Game Rules modal
+* Game Rules button / modal
 * Game Area
 * Winners modal
 
 #### Game Title
 
-At the top of the screen is the games title. This will let the player know what game they are playing. The game icons will appear in the title, for example Rock will include the Rock icon. The images will be used as the game buttons so the user will know what each choice is from the title. This will carry out the same style throughout the site.
+At the top of the screen is the games title. This will let the player know what game they are playing. The game icons will appear in the title, for example Rock will include the Rock icon. These images will be used as the game buttons so the user will know what each choice is from the title.
 
 ![game title](https://user-images.githubusercontent.com/79532281/156549093-90f150cd-f944-4c7c-81fe-6f243eb2a502.png)
 
 #### Game Rules
 
-Under the title is the Game Rules button. New users can click the button and amodal will appear detailing you win / lose the game and what each game element can defeat / be defeated by. Return users can use it to brush up on the rules or how to win the game. Users can return to the home screen by clicking the X in the righthand corner.
+Under the title is the Game Rules button. New users can click the button and a modal will appear and informs the user what score they must reach to win / lose the round and what each game element can defeat / be defeated by. Return users can use it to brush up on the rules or how to win the game. Users can return to the home screen by clicking the X in the top right hand corner.
 
 ![game rules button](https://user-images.githubusercontent.com/79532281/156573669-120dacf1-71cf-4abc-ae2c-49674be1e801.png)
 
@@ -133,7 +136,7 @@ Under the title is the Game Rules button. New users can click the button and amo
 
 #### Game Buttons
 
-This area is where the player can make their selection. I find these images really unique to the other icons you can find for this game online and help continue the style of the game. The player interacts with the game buttons by clicking on them, the mouse cursor will change to a pointer to notify the user the buttons can be interacted with and let the user know to click on an image to make a selection.
+This area is where the player can make their selection. I find these images really unique to the other icons you can find online and help. The player interacts with the game buttons by clicking on them, the mouse cursor will change to a pointer to let the user know the buttons can be interacted with and let the user know to click the button to make a selection.
 
 **Rock**
 
@@ -157,7 +160,7 @@ This area is where the player can make their selection. I find these images real
 
 #### Result Area
 
-After the user makes their selection below the game buttons is the result area. This will let the user know if they won, if the lost or it it is a draw. This lets the user see their choice, what the computer choose and the outcome of these choises.
+After the user makes their selection below the game buttons is the result area. This will let the user know if they won, lost or it's a draw. The user can see their choice, what the computer choose and the outcome of these choises.
 
 ![winning choice](https://user-images.githubusercontent.com/79532281/156574822-5d6d09cc-49a7-484e-b0ff-b598a7ec2d04.png)
 
@@ -168,7 +171,7 @@ After the user makes their selection below the game buttons is the result area. 
 
 #### Scoreboard
 
-Below the result Area is the scoreboard. This keeps track on if the player won a round or the computer did. Depending on the winner the score is incremented, if it is a draw nobodys score will increase. This adds tension and excitment to the game for the user as if the player and computer are level on score, 4 points each, the next decision could be the winning or losing choice.
+Below the result Area is the scoreboard. This keeps track on if the player won a round or the computer did. Depending on the winner the score is incremented, if it is a draw nobodys score will increase. This adds tension and excitment to the game as the user and computer could be level on score, 4 points each, and the next decision could be the winning or losing choice.
 
 ![score-board](https://user-images.githubusercontent.com/79532281/156576088-66c08803-765a-42b3-84d7-55bf98df4132.png)
 
@@ -183,9 +186,9 @@ When the player or computer score reaches 5 they win the game and a winner modal
 
 Below are the future feature I would like to implement on the site.
 
-* I would like to add animation to my game buttons. When the user makes their selection the button will have an animation to change the image
+* I would like to add animation to my game buttons. When the user makes their selection the button will have an animation to change the image.
 
-* I would like to add images to the winnder modal. For example, if the player won an image of spock would appear congratulating them and if they lost maybe an image of Scissors cutting paper to tie in with the differant way the player can lose
+* I would like to add images to the winnder modal. For example, if the player won an image of spock would appear congratulating them and if they lost maybe an image of Scissors cutting paper to tie in with the differant way the player can lose.
 
 
 ## Technologies Used
@@ -197,19 +200,19 @@ Below are the future feature I would like to implement on the site.
   * This was used as the host site for the code for the site.
 
 * HTML
-  * This was used to create the basic structure of the site
+  * This was used to create the basic structure of the site.
 
 * CSS
-  * This was used to add style to the site
+  * This was used to add style to the site.
 
 * JavaScript
-  * This was used to create the logic behind the game
+  * This was used to create the logic behind the game.
 
 ## Testing
 
 #### HTML
 
-* I tested my HTML in the HTML Validator. I fixed the warnings that were appearing and now the site passes with now issues.
+* I tested my HTML in the HTML Validator. I fixed the warnings that were appearing and now the site passes with no issues.
 
 ![HTML Validation](https://user-images.githubusercontent.com/79532281/155358125-7d4aeaad-b0d1-4090-8649-4115537c004a.png)
 
@@ -223,7 +226,7 @@ Below are the future feature I would like to implement on the site.
 
 #### JavaScript
 
-* I tested my JavaScript in JSHint. I fixed the errors and warnings that were appearing so now there are no issues appearing.
+* I tested my JavaScript in JSHint. I fixed the errors and warnings that were appearing and there are no issues appearing now.
 
 ![JS Testing](https://user-images.githubusercontent.com/79532281/156577051-62eed5d5-64c0-461c-a3e2-ea13c903e4dc.png)
 
@@ -276,6 +279,6 @@ The site was deployed through Github. The steps to deploy the site are:
 * The responsive layout at the top of the README was created with [Am I Responsive](http://ami.responsivedesign.is/)
 * The image the icons and background colour on the site was taken from [I love free software](https://www.ilovefreesoftware.com/26/featured/play-rock-paper-scissors-online-10-free-websites.html)
 * The fonts came from [Google Fonts](https://fonts.google.com/)
-* The if statement in the JavaScript code was created with assistance from [W3Schools](https://www.w3schools.com/js/js_if_else.asp)
+* The if statement in the JavaScript code was created using W3schools as a guide [W3Schools](https://www.w3schools.com/js/js_if_else.asp)
 * I got the Spock favicon icon from [Icons8](https://icons8.com/icons/set/characters)
-* The game winner modal was create with W3schools as a guide [W3Schools - How to make a modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
+* The modals on the site were created using W3schools as a guide [W3Schools - How to make a modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
